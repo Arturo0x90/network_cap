@@ -11,7 +11,6 @@ from sys import exit
 """¡Encriptacion Simetrica firmada! Creada Por: Arturo Melgarejo Galindo"""
 
 
-
 class Alertas:
     def info(self, log):
         return print("\033[94m" + "[+] Info: " + log + "\033[0m")
