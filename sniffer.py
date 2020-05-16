@@ -4,7 +4,6 @@ from lists import whitelist
 from lists import blacklist
 from custom_lists import c_whitelist
 from custom_lists import c_blacklist
-import time
 interface = str(input('Interfaz (wlan0, eth0, lo, etc.): '))
 #Variable "i" is for debugging purposes
 i = 1
@@ -60,5 +59,4 @@ while True:
         i = i+1
     except Exception as ex:
         print(ex)
-        time.sleep(30)
         live_sniffer()
